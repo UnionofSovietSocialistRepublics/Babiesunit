@@ -1,5 +1,5 @@
 type: mech
-speed: 1.45
+speed: 1
 drag: 0.4
 hitSize: 5
 range: 125
