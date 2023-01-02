@@ -18,7 +18,7 @@ weapons: [
   mirror: false
   top: false
   shake: 4
-  shootY: 0
+  shootY: 8
   reload: 160
   recoil: 0
   chargeSound: lasercharge2
