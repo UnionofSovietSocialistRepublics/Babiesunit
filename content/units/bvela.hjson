@@ -25,13 +25,13 @@ weapons: [
   shootSound: beam
   continuous: true
   cooldownTime: 200
-  firstShotDelay: 39
+  firstShotDelay: 100
   bullet: {
     type: ContinuousLaserBulletType
     damage: 75
     length: 125
     hitEffect: hitMeltHeal
-    drawSize: 420
+    drawSize: 125
     lifetime: 125
     shake: 1
     despawnEffect: smokeCloud
