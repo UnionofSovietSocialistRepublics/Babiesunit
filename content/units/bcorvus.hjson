@@ -6,7 +6,7 @@ landShake: 2
 rotateSpeed: 1.5
 commandLimit: 8
 legCount: 4
-legLength: 14
+legLength: 5
 legBaseOffset: 4
 legMoveSpace: 1.5
 legTrns: 0.58
@@ -26,11 +26,9 @@ weapons: [
   mirror: false
   shake: 18
   shootY: 5
-  reload: 350
+  reload: 240
   recoil: 0
-  cooldownTime: 350
-  shootStatusDuration: 120
-  shootStatus: unmoving
+  cooldownTime: 240
   firstShotDelay: 70
   bullet: {
     type: LaserBulletType
