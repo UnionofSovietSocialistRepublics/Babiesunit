@@ -32,9 +32,9 @@ weapons: [
   firstShotDelay: 70
   bullet: {
     type: LaserBulletType
-    length: 460
+    length: 250
     damage: 400
-    width: 75
+    width: 30
     lifetime: 65
     lightningSpacing: 35
     lightningLength: 7
