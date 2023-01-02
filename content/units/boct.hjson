@@ -3,4 +3,30 @@ flying: true
 speed: 1.45
 drag: 0.3
 hitSize: 7
-health: 850
+health: 8500
+    abilities: [
+        {
+            type: mindustry.entities.abilities.ForceFieldAbility
+            radius: 80
+            regen: 10
+            max: 3500
+            cooldown: 300
+	}
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 57D993FF
+        colorFrom: 57D993FF
+        colorTo: 57D993FF
+        }
+        range: 80
+        amount: 25
+        reload: 65
+            }
+    ]
