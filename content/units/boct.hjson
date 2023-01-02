@@ -2,8 +2,8 @@ type: flying
 flying: true
 armor: 4
 speed: 1.45
-engineOffset: 2
-engineSize: 3
+engineOffset: 5
+engineSize: 10
 drag: 0.3
 hitSize: 7
 health: 8500
@@ -11,7 +11,7 @@ health: 8500
         {
             type: mindustry.entities.abilities.ForceFieldAbility
             radius: 45
-            regen: 60
+            regen: 2
             max: 3500
             cooldown: 300
 	}
