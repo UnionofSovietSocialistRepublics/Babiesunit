@@ -1,0 +1,6 @@
+type: flying
+flying: true
+speed: 1.45
+drag: 0.3
+hitSize: 7
+health: 850
