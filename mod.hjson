@@ -1,0 +1,6 @@
+name: "bbunit"
+displayName: "Babies unit!"
+author: "Horizon Cult"
+description: "This mod add smol and cute unit, I guess"
+version: "1.0"
+minGameVersion: "140"
