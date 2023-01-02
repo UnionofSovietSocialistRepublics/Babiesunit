@@ -1,15 +1,10 @@
 
-type: legs
-legCount: 4
+type: mech
 speed: 1.45
 drag: 0.4
 hitSize: 5
 range: 125
 health: 725
-immunities: [
-		burning
-		melting
-		]
 weapons: [
 {
   name: bvela-w
