@@ -11,7 +11,7 @@ health: 8500
         {
             type: mindustry.entities.abilities.ForceFieldAbility
             radius: 45
-            regen: 2
+            regen: 60
             max: 3500
             cooldown: 300
 	}
