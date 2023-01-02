@@ -1,0 +1,80 @@
+type: legs
+legCount: 4
+speed: 1.45
+drag: 0.4
+hitSize: 15
+range: 100
+health: 815
+immunities: [
+		burning
+		melting
+		]
+weapons: [{
+  name: Purgergun
+  x: 9
+  y: 0
+  shootSound: flame
+  reload: 3
+  alternate: true
+  ejectEffect: none
+	bullet: {
+    type: BasicBulletType
+    collidesAir: true
+    speed: 5
+    damage: 65
+    width: 0.1
+    height: 0.1
+    shootEffect: {
+    type: ParticleEffect
+    particles: 30
+    sizeFrom: 5
+    sizeTo: 0
+    length: 80
+    lifetime: 25
+    interp: circleOut
+    lightColor: 26142a
+    colorFrom: 26142a
+    colorTo: 26142a
+    cone: 10
+    }
+    smokeEffect: none
+    lifetime: 12,
+	despawnEffect: none
+    hittable: false
+    reflectable: false
+	hitEffect: {
+  type: ParticleEffect
+    line: true
+    particles: 5
+    lifetime: 60
+    interp: circleOut
+    length: 50
+    cone: -30
+    lenFrom: 5
+    lenTo: 0
+    colorFrom: 26142a
+    colorTo: 26142a
+	}
+	pierce: true
+	incendAmount: 5
+     }
+}]
+abilities: [
+        {
+        type: mindustry.entities.abilities.RepairFieldAbility
+        healEffect: {
+        type: WaveEffect
+        lifetime: 30
+        sizeFrom: 0
+        sizeTo": 5
+        strokeFrom: 2
+        strokeTo: 0
+        lightColor: 73FFAEFF
+        colorFrom: 73FFAEFF
+        colorTo: 57D993FF
+        }
+        range: 1
+        amount: 15
+        reload: 150
+            }
+    ]
