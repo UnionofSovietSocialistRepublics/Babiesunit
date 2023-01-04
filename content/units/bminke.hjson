@@ -3,39 +3,12 @@ health: 150
 armor: 1
 weapons: [
   {
-  name: bbminkew1
-  x: 0
-  y: 2
-  reload: 25
-  mirror: true
-  alternate: true
-  recoil: 4
-  ejectEffect: casing2
-  bullet: {
-    type: ArtilleryBulletType
-    speed: 2
-    damage: 15
-    sprite: shell
-    hitEffect: blastExplosion
-    knockback: 0.8
-    lifetime: 75
-    width: 15
-    height: 15
-    collides: true
-    collidesTiles: true
-    splashDamageRadius: 5
-    splashDamage: 10
-    backColor: 8FFE09
-    frontColor: 8FFE09
-  }
-  shootSound: artillery
-  }
-  {
   name: bbminkew2
   x: 4
-  y: 2
+  y: 1
   reload: 25
   ejectEffect: casing1
+  rotate: true
   bullet: {
     lifetime: 75
     speed: 3
