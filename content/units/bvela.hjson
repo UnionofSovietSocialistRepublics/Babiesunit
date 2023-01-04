@@ -18,11 +18,12 @@ weapons: [
   reload: 160
   recoil: 0
   chargeSound: lasercharge2
+  chargeEffect: greenLaserChargeSmall
   shootSound: beam
   continuous: true
   cooldownTime: 200
   ShootPattern: {
-  firstShotDelay: 100
+  firstShotDelay: 200
   }
   bullet: {
     type: ContinuousLaserBulletType
