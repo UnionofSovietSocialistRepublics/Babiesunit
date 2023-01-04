@@ -1,4 +1,6 @@
 type: mech
+canBoost: true
+boostMultiplier: 1.25
 speed: 1
 drag: 0.4
 hitSize: 5
