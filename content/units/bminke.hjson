@@ -28,7 +28,8 @@ weapons: [{
     frontColor: 8FFE09
   }
   shootSound: artillery
-    {
+  }
+  {
   name: bbminkew2
   x: 4
   y: 2
@@ -42,5 +43,4 @@ weapons: [{
     damage: 5
     bulletWidth: 9
     bulletHeight: 12
-  }}
-}]
+  }}}
