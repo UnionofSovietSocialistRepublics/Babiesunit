@@ -21,7 +21,9 @@ weapons: [
   shootSound: beam
   continuous: true
   cooldownTime: 200
+  ShootPattern: {
   firstShotDelay: 100
+  }
   bullet: {
     type: ContinuousLaserBulletType
     damage: 75
