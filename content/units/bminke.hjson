@@ -1,7 +1,8 @@
 type: naval
 health: 150
 armor: 1
-weapons: [{
+weapons: [
+  {
   name: bbminkew1
   x: 0
   y: 2
@@ -43,4 +44,4 @@ weapons: [{
     damage: 5
     bulletWidth: 9
     bulletHeight: 12
-  }}}
+}}]
