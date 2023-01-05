@@ -30,7 +30,7 @@ weapons: [
   }
   bullet: {
     type: ContinuousLaserBulletType
-    damage: 75
+    damage: 45
     length: 125
     hitEffect: hitMeltHeal
     drawSize: 125
