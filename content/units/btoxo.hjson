@@ -5,8 +5,8 @@ speed: 1
 landShake: 1
 rotateSpeed: 1.5
 legCount: 8
-legLength: 10
-legBaseOffset: 0
+legLength: 15
+legBaseOffset: 4
 legMoveSpace: 1
 legTrns: 0.6
 hovering: true
