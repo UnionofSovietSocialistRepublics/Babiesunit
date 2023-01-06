@@ -1,14 +1,14 @@
 type: legs
 hitSize: 15
-health: 11200
+health: 8500
 speed: 1
 landShake: 1
 rotateSpeed: 1.5
 legCount: 8
-legLength: 12
-legBaseOffset: 4
+legLength: 10
+legBaseOffset: 0
 legMoveSpace: 1
-legTrns: 0.58
+legTrns: 0.6
 hovering: true
 visualElevation: 0.2
 allowLegStep: true
@@ -30,8 +30,8 @@ weapons: [
   spacing: 17
   bullet: {
     type: ShrapnelBulletType
-    length: 50
-    damage: 35
+    length: 45
+    damage: 75
     width: 25
     serrationLenScl: 7
     serrationSpaceOffset: 60
@@ -60,7 +60,7 @@ weapons: [
   bullet: {
     type: ArtilleryBulletType
     speed: 3
-    damage: 50
+    damage: 25
     hitEffect: sapExplosion
     knockback: 0.8
     lifetime: 80
@@ -70,7 +70,7 @@ weapons: [
     collidesTiles: true
     ammoMultiplier: 4
     splashDamageRadius: 100
-    splashDamage: 250
+    splashDamage: 15
     backColor: ffffff
     frontColor: A865C9
     lightningColor: A865C9
