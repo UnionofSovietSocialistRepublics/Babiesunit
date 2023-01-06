@@ -5,7 +5,7 @@ speed: 1
 landShake: 1
 rotateSpeed: 1.5
 legCount: 8
-legLength: 7
+legLength: 12
 legBaseOffset: 4
 legMoveSpace: 1
 legTrns: 0.58
