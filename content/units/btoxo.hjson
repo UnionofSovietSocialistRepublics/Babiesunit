@@ -30,15 +30,15 @@ weapons: [
   spacing: 17
   bullet: {
     type: ShrapnelBulletType
-    length: 90
-    damage: 280
+    length: 50
+    damage: 35
     width: 25
     serrationLenScl: 7
     serrationSpaceOffset: 60
     serrationFadeOffset: 0
     serrations: 10
     serrationWidth: 6
-    fromColor: f0e4a8
+    fromColor: A865C9
     toColor: ffffff
     shootEffect: sparkShoot
     smokeEffect: sparkShoot
@@ -60,7 +60,7 @@ weapons: [
   bullet: {
     type: ArtilleryBulletType
     speed: 3
-    damage: 210
+    damage: 50
     hitEffect: sapExplosion
     knockback: 0.8
     lifetime: 80
@@ -92,15 +92,15 @@ weapons: [
       width: 10
       height: 10
       collidesTiles: false
-      splashDamageRadius: 90
-      splashDamage: 165
+      splashDamageRadius: 55
+      splashDamage: 65
       backColor: ffffff
       frontColor: A865C9
       lightningColor: A865C9
       lightning: 2
-      lightningLength: 7
+      lightningLength: 5
       smokeEffect: shootBigSmoke2
-      hitShake: 5
+      hitShake: 1
       status: sapped
       statusDuration: 600
     }
