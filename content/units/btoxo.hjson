@@ -4,10 +4,10 @@ health: 11200
 speed: 1
 landShake: 1
 rotateSpeed: 1.5
-legCount: 6
-legLength: 5
+legCount: 8
+legLength: 7
 legBaseOffset: 4
-legMoveSpace: 1.5
+legMoveSpace: 1
 legTrns: 0.58
 hovering: true
 visualElevation: 0.2
