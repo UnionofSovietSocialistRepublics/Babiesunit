@@ -1,0 +1,109 @@
+type: legs
+hitSize: 15
+health: 11200
+speed: 1
+landShake: 1
+rotateSpeed: 1.5
+legCount: 6
+legLength: 5
+legBaseOffset: 4
+legMoveSpace: 1.5
+legTrns: 0.58
+hovering: true
+visualElevation: 0.2
+allowLegStep: true
+drawShields: false
+weapons: [
+{
+  name: btoxow1
+  x: 6
+  y: -2
+  shootY: 7
+  reload: 30
+  shake: 4
+  rotateSpeed: 2
+  ejectEffect: casing1
+  shootSound: shootBig
+  rotate: true
+  recoil: 3
+  shots: 2
+  spacing: 17
+  bullet: {
+    type: ShrapnelBulletType
+    length: 90
+    damage: 280
+    width: 25
+    serrationLenScl: 7
+    serrationSpaceOffset: 60
+    serrationFadeOffset: 0
+    serrations: 10
+    serrationWidth: 6
+    fromColor: f0e4a8
+    toColor: ffffff
+    shootEffect: sparkShoot
+    smokeEffect: sparkShoot
+  }
+}
+{
+  name: btoxow2
+  x: 0
+  y: -4
+  shootY: 0
+  mirror: false
+  reload: 180
+  shake: 10
+  recoil: 10
+  rotateSpeed: 1
+  ejectEffect: casing4
+  shootSound: shootBig
+  rotate: true
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 3
+    damage: 210
+    hitEffect: sapExplosion
+    knockback: 0.8
+    lifetime: 80
+    width: 15
+    height: 15
+    collides: true
+    collidesTiles: true
+    ammoMultiplier: 4
+    splashDamageRadius: 100
+    splashDamage: 250
+    backColor: ffffff
+    frontColor: A865C9
+    lightningColor: A865C9
+    lightning: 2
+    lightningLength: 12
+    smokeEffect: shootBigSmoke2
+    hitShake: 10
+    status: sapped
+    statusDuration: 10
+    fragLifeMin: 0.3
+    fragBullets: 12
+    fragBullet: {
+      type: ArtilleryBulletType
+      speed: 2.3
+      damage: 90
+      hitEffect: sapExplosion
+      knockback: 0.8
+      lifetime: 90
+      width: 10
+      height: 10
+      collidesTiles: false
+      splashDamageRadius: 90
+      splashDamage: 165
+      backColor: ffffff
+      frontColor: A865C9
+      lightningColor: A865C9
+      lightning: 2
+      lightningLength: 7
+      smokeEffect: shootBigSmoke2
+      hitShake: 5
+      status: sapped
+      statusDuration: 600
+    }
+  }
+}
+]
