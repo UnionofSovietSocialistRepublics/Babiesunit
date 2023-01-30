@@ -24,8 +24,7 @@ inaccuracy: 15
 ignoreRotation: true
 bullet: {
 type: BombBulletType
-damage: 0
-splashDamage: 100
+splashDamage: 14
 splashDamageRadius: 35
 width: 7
 height: 10

@@ -29,7 +29,7 @@ type: BombBulletType
 despawnEffect: greenBomb
 damage: 0
 healPercent: 6
-splashDamage: 100
+splashDamage: 120
 splashDamageRadius: 40
 width: 7
 height: 10
