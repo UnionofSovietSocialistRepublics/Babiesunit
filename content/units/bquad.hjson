@@ -5,8 +5,8 @@ rotateSpeed: 2
 drag: 0.025
 armor: 3
 faceTarget: false
-engineOffset: 5
-engineSize: 3
+engineOffset: 10
+engineSize: 4
 hitSize: 7
 targetAir: false
 health: 2500

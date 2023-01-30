@@ -4,8 +4,8 @@ speed: 2
 drag: 0.03
 armor: 1
 faceTarget: false
-engineOffset: 5
-engineSize: 3
+engineOffset: 7
+engineSize: 2
 hitSize: 5
 targetAir: false
 
