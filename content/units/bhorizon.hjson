@@ -17,6 +17,7 @@ reload: 10
 alternate: true
 shootCone: 180
 ejectEffect: none
+minShootVelocity: 0.75f
 velocityRnd: 1
 inaccuracy: 15
 ignoreRotation: true
@@ -25,8 +26,8 @@ type: BombBulletType
 damage: 0
 splashDamage: 100
 splashDamageRadius: 32
-width: 10
-height: 14
+width: 7
+height: 10
 lifetime: 75
 status: blasted
 statusDuration: 60
