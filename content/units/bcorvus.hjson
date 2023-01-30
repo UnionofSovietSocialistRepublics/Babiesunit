@@ -1,5 +1,6 @@
 type: legs
 hitSize: 13
+armor: 4
 health: 5400
 speed: 1.2
 landShake: 2

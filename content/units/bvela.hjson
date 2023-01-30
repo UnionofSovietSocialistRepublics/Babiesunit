@@ -1,7 +1,8 @@
 type: mech
+armor: 4
 canBoost: true
-boostMultiplier: 1.25
-speed: 1
+boostMultiplier: 2
+speed: 0.8
 drag: 0.4
 hitSize: 5
 immunities: [
