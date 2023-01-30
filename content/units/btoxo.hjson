@@ -102,7 +102,7 @@ weapons: [
       smokeEffect: shootBigSmoke2
       hitShake: 1
       status: sapped
-      statusDuration: 600
+      statusDuration: 300
     }
   }
 }
