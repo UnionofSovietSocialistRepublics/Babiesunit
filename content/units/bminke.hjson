@@ -3,10 +3,10 @@ health: 150
 armor: 1
 weapons: [
   {
-  name: bbminkew2
+  name: bminkew2
   x: 4
   y: 1
-  reload: 62
+  reload: 35
   ejectEffect: casing1
   rotate: true
   bullet: {
