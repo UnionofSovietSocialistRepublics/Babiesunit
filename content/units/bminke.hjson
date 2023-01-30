@@ -6,7 +6,7 @@ weapons: [
   name: bminkew2
   x: 4
   y: 1
-  reload: 35
+  reload: 25
   ejectEffect: casing1
   rotate: true
   bullet: {
