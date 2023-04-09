@@ -25,7 +25,6 @@ weapons: [
   chargeEffect: greenLaserChargeSmall
   shootSound: beam
   continuous: true
-  cooldownTime: 200
   bullet: {
     type: ContinuousLaserBulletType
     damage: 45
@@ -36,7 +35,7 @@ weapons: [
     shake: 1
     despawnEffect: smokeCloud
   shoot: {
-   firstShotDelay: 10
+   firstShotDelay: 200
    shootStatus: unmoving
   }
     smokeEffect: none
