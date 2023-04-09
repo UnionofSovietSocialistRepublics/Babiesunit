@@ -46,6 +46,7 @@ weapons: [
     largeHit: true
     lightColor: 73FFAEFF
     lightningColor: 73FFAEFF
+    shootStatus: unmoving
     shootEffect: greenLaserCharge
     healPercent: 50
     collidesTeam: true
