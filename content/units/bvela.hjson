@@ -40,7 +40,9 @@ weapons: [
     despawnEffect: smokeCloud
     ShootPattern: {
       firstShotDelay: 200
-      chargeEffect: greenLaserChargeSmall
+      shoot: {
+        chargeEffect: greenLaserChargeSmall
+      }
     }
 }
     smokeEffect: none
