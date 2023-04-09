@@ -34,10 +34,11 @@ weapons: [
     lifetime: 125
     shake: 1
     despawnEffect: smokeCloud
+shootType: {
   shoot: {
-   firstShotDelay: 200
-   shootStatus: unmoving
+    firstShotDelay: 200
   }
+}
     smokeEffect: none
     shootEffect: greenLaserChargeSmall
     incendChance: 0.15
@@ -48,7 +49,7 @@ weapons: [
     colors: [
       73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
     ]
-    status: slow
-    statusDuration: 69
+        shootStatus: slow
+        shootStatusDuration: 200
   }
  }]
