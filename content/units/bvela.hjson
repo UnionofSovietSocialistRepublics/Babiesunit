@@ -15,6 +15,8 @@ weapons: [
   name: bvela-w
   x: 0
   y: 0
+  shootStatus: slow
+  shootStatusDuration: 200
   mirror: false
   top: false
   shake: 4
@@ -34,10 +36,9 @@ weapons: [
     lifetime: 125
     shake: 1
     despawnEffect: smokeCloud
-shootType: {
-  shoot: {
-    firstShotDelay: 200
-  }
+    ShootPattern: {
+      firstShotDelay: 200
+    }
 }
     smokeEffect: none
     shootEffect: greenLaserChargeSmall
@@ -49,7 +50,5 @@ shootType: {
     colors: [
       73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
     ]
-        shootStatus: slow
-        shootStatusDuration: 200
   }
  }]
