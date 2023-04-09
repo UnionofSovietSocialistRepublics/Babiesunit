@@ -38,17 +38,16 @@ weapons: [
     despawnEffect: smokeCloud
     ShootPattern: {
       firstShotDelay: 200
+      colors: [
+      73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
+    ]
     }
 }
     smokeEffect: none
-    shootEffect: greenLaserChargeSmall
     incendChance: 0.15
     incendSpread: 5
     incendAmount: 1
     healPercent: 2
     collidesTeam: true
-    colors: [
-      73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
-    ]
   }
  ]
