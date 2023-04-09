@@ -28,7 +28,7 @@ weapons: [
   continuous: true
   bullet: {
     type: ContinuousLaserBulletType
-    chargeEffect: Fx.greenLaserCharge
+    chargeEffect: greenLaserCharge
     damage: 45
     colors: [
     73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
