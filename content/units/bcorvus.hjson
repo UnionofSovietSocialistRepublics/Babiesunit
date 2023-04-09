@@ -15,8 +15,7 @@ hovering: true
 visualElevation: 0.2
 allowLegStep: true
 drawShields: false
-weapons: [
-{
+weapons: [{
   name: bcorvus-w
   x: 0
   y: 0
@@ -37,6 +36,12 @@ weapons: [
     damage: 400
     width: 30
     lifetime: 65
+    ShootPattern: {
+      firstShotDelay: 200
+      colors: [
+      73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
+    ]
+    }
     lightningSpacing: 35
     lightningLength: 7
     lightningDelay: 1.1
@@ -46,15 +51,11 @@ weapons: [
     largeHit: true
     lightColor: 73FFAEFF
     lightningColor: 73FFAEFF
-    shootStatus: unmoving
     shootEffect: greenLaserCharge
     healPercent: 50
     collidesTeam: true
     sideAngle: 15
     sideWidth: 0
     sideLength: 0
-    colors: [
-      73FFAEFF, 73FFAEFF, ffffff
-    ]
   }
 }]
