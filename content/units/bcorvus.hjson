@@ -36,13 +36,10 @@ weapons: [{
     damage: 400
     width: 30
     lifetime: 65
-    ShootPattern: {
-      firstShotDelay: 200
-      colors: [
+    lightningSpacing: 35
+     colors: [
       73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
     ]
-    }
-    lightningSpacing: 35
     lightningLength: 7
     lightningDelay: 1.1
     lightningLengthRand: 20

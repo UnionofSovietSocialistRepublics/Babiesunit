@@ -30,6 +30,9 @@ weapons: [
   bullet: {
     type: ContinuousLaserBulletType
     damage: 45
+    colors: [
+    73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
+    ]
     length: 125
     hitEffect: hitMeltHeal
     drawSize: 125
@@ -38,9 +41,6 @@ weapons: [
     despawnEffect: smokeCloud
     ShootPattern: {
       firstShotDelay: 200
-      colors: [
-      73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
-    ]
     }
 }
     smokeEffect: none
