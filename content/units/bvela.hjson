@@ -28,7 +28,6 @@ weapons: [
   continuous: true
   bullet: {
     type: ContinuousLaserBulletType
-    chargeEffect: greenLaserCharge
     damage: 45
     colors: [
     73FFAEFF, 73FFAEFF, 73FFAEFF, ffffff
@@ -40,6 +39,7 @@ weapons: [
     shake: 1
     despawnEffect: smokeCloud
     ShootPattern: {
+      chargeEffect: greenLaserCharge
       firstShotDelay: 200
       shoot: {
       }
