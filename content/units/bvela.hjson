@@ -52,4 +52,25 @@ weapons: [
     healPercent: 2
     collidesTeam: true
   }
+    {
+      type: RepairBeamWeapon
+      mirror: true
+      alternate: false
+      rotateSpeed: 3
+      name: apotheosis-repairer
+      x: -5
+      y: 0
+      reload: 1
+      rotate": true
+      shootSound: laser
+      laserColor: 73FFAEFF
+      controllable: false
+      autoTarget: true
+      beamWidth: 1
+      pulseRadius: 6
+      pulseStroke: 2
+      repairSpeed: 15
+        speed: 1
+        maxRange: 100
+      }
  ]
