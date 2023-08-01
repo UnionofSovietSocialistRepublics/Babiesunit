@@ -59,7 +59,7 @@ weapons: [
       rotateSpeed: 3
       name: velaheal
       x: -5
-      y: 0
+      y: -2
       reload: 1
       rotate": true
       shootSound: laser
