@@ -52,7 +52,9 @@ weapons: [
     healPercent: 2
     collidesTeam: true
   }
-    {
+  {
+    targetAir: true
+    targetGround: true
       type: RepairBeamWeapon
       mirror: true
       alternate: false
@@ -61,15 +63,15 @@ weapons: [
       x: -5
       y: -2
       reload: 1
-      rotate": true
+      rotate: true
       shootSound: laser
       laserColor: 73FFAEFF
       controllable: false
       autoTarget: true
       beamWidth: 1
-      pulseRadius: 6
+      pulseRadius: 1
       pulseStroke: 2
-      repairSpeed: 15
+      repairSpeed: 2
         speed: 1
         maxRange: 100
       }
