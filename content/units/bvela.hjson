@@ -57,7 +57,7 @@ weapons: [
       mirror: true
       alternate: false
       rotateSpeed: 3
-      name: apotheosis-repairer
+      name: velaheal
       x: -5
       y: 0
       reload: 1
