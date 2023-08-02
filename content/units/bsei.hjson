@@ -1,0 +1,52 @@
+type: naval
+health: 3600
+armor: 3
+weapons: [
+  {
+  name: bseigun
+  x: 4
+  y: 1
+  reload: 23
+  ejectEffect: casing1
+  rotate: true
+  bullet: {
+    type: BasicBulletType
+    width: 5
+    height = 7
+    lifetime: 75
+    speed: 3
+    shootEffect: shootBig
+    damage: 24
+    bulletWidth: 9
+    bulletHeight: 12
+}}
+  {
+  name: bseimissle
+  x: 0
+  y: 0
+  reload: 45
+  recoil: 3
+  velocityRnd = 0.4
+  inaccuracy = 5
+  ejectEffect: casing1
+  rotate: true
+  shoot: { 
+    type: ShootAlternate
+    barrels: 2
+    spread: 2
+    shots: 6
+    shotDelay: 2
+}
+  bullet: {
+    type: MissileBulletType
+    homingPower: 8
+    homingRange: 50
+    lifetime: 75
+    speed: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 56
+    bulletWidth: 9
+    bulletHeight: 12
+}}
+]
