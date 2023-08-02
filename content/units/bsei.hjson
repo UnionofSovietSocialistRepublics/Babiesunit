@@ -4,21 +4,19 @@ armor: 3
 weapons: [
   {
   name: bseigun
-  x: 4
-  y: 1
+  x: 5
+  y: -5
   reload: 23
   ejectEffect: casing1
   rotate: true
   bullet: {
     type: BasicBulletType
-    width: 5
-    height: 7
     lifetime: 75
     speed: 3
     shootEffect: shootBig
     damage: 24
-    bulletWidth: 9
-    bulletHeight: 12
+    bulletWidth: 15
+    bulletHeight: 15
 }}
   {
   name: bseimissle
