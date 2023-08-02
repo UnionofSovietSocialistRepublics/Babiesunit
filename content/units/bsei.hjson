@@ -12,7 +12,7 @@ weapons: [
   bullet: {
     type: BasicBulletType
     width: 5
-    height = 7
+    height: 7
     lifetime: 75
     speed: 3
     shootEffect: shootBig
