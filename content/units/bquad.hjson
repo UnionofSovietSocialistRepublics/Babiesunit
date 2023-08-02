@@ -5,6 +5,7 @@ rotateSpeed: 2
 drag: 0.025
 armor: 3
 faceTarget: false
+lowAltitude: false
 engineOffset: 7
 engineSize: 3
 hitSize: 7
