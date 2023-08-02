@@ -26,8 +26,8 @@ weapons: [
   y: 0
   reload: 45
   recoil: 3
-  velocityRnd = 0.4
-  inaccuracy = 5
+  velocityRnd: 0.4
+  inaccuracy: 5
   ejectEffect: casing1
   rotate: true
   shoot: { 
