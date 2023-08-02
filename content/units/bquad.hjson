@@ -15,7 +15,7 @@ health: 2500
 weapons: [{
 name: bquadbombs
 x: 0
-y: 0
+y: -2
 reload: 60
 alternate: true
 shootCone: 180
