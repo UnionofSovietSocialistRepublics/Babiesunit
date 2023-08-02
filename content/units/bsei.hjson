@@ -27,6 +27,7 @@ weapons: [
   velocityRnd: 0.4
   inaccuracy: 5
   ejectEffect: casing1
+  alternate: false
   rotate: true
   shoot: { 
     type: ShootSpread
