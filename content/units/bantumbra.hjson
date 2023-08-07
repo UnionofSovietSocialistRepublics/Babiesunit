@@ -29,7 +29,7 @@ weapons: [
 }}
 {
   name: bantummissle
-  x: -3
+  x: 4
   y: -5
   reload: 50
   recoil: 3
@@ -54,8 +54,8 @@ weapons: [
 }}
 {
   name: bantummissle
-  x: 3
-  y: -5
+  x: 4
+  y: 5
   reload: 45
   recoil: 3
   velocityRnd: 0.4
