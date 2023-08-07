@@ -1,0 +1,34 @@
+type: flying
+health: 3200
+armor: 5
+weapons: [
+  {
+  name: bseigun
+  x: 0
+  y: -2
+  reload: 23
+  ejectEffect: casing1
+  alternate: false
+  rotate: true
+  bullet: {
+    type: BasicBulletType
+    lifetime: 75
+    speed: 3
+    shootEffect: shootBig
+    damage: 24
+    width: 7
+    height: 9
+}}
+{
+  name: bseimissle
+  x: 0
+  y: -5
+  reload: 45
+  recoil: 3
+  velocityRnd: 0.4
+  inaccuracy: 5
+  ejectEffect: casing1
+  alternate: false
+  rotate: true
+}
+]
