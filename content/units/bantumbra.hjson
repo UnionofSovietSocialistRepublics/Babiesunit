@@ -1,18 +1,20 @@
 type: flying
 flying: true
-health: 3200
 armor: 5
+speed: 1.45
+defaultController: DefenderAI
 engineOffset: 7
 engineSize: 3
 drag: 0.02
 accel: 0.05
-hitSize: 5
+hitSize: 7
+health: 3500
 weapons: [
   {
   name: bseigun
   x: -1
   y: -2
-  reload: 23
+  reload: 25
   ejectEffect: casing1
   alternate: false
   rotate: true
@@ -29,6 +31,31 @@ weapons: [
   name: bantummissle
   x: -3
   y: -5
+  reload: 50
+  recoil: 3
+  velocityRnd: 0.4
+  inaccuracy: 5
+  ejectEffect: casing1
+  alternate: false
+  rotate: true
+  bullet: {
+    type: MissileBulletType
+    homingPower: 8
+    homingRange: 50
+    lifetime: 75
+    speed: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 6
+    bulletWidth: 5
+    bulletHeight: 4
+    status: blasted
+    statusDuration: 300
+}}
+{
+  name: bantummissle
+  x: 3
+  y: -5
   reload: 45
   recoil: 3
   velocityRnd: 0.4
@@ -36,5 +63,18 @@ weapons: [
   ejectEffect: casing1
   alternate: false
   rotate: true
-}
+  bullet: {
+    type: MissileBulletType
+    homingPower: 8
+    homingRange: 50
+    lifetime: 75
+    speed: 3
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    damage: 6
+    bulletWidth: 5
+    bulletHeight: 4
+    status: blasted
+    statusDuration: 300
+}}
 ]
