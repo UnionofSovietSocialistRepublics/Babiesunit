@@ -8,7 +8,7 @@ engineSize: 3
 drag: 0.02
 accel: 0.05
 hitSize: 7
-health: 8500
+health: 11250
     abilities: [
         {
             type: mindustry.entities.abilities.ForceFieldAbility

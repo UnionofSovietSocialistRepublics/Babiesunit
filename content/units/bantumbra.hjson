@@ -1,10 +1,15 @@
 type: flying
 health: 3200
 armor: 5
+engineOffset: 7
+engineSize: 3
+drag: 0.02
+accel: 0.05
+hitSize: 5
 weapons: [
   {
   name: bseigun
-  x: 0
+  x: -1
   y: -2
   reload: 23
   ejectEffect: casing1
@@ -20,8 +25,8 @@ weapons: [
     height: 9
 }}
 {
-  name: bseimissle
-  x: 0
+  name: bantumbramissle
+  x: -3
   y: -5
   reload: 45
   recoil: 3
