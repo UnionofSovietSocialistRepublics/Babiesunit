@@ -1,5 +1,5 @@
 type: naval
-health: 150
+health: 125
 armor: 1
 weapons: [
   {

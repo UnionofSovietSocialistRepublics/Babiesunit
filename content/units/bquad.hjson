@@ -10,7 +10,7 @@ engineOffset: 7
 engineSize: 3
 hitSize: 7
 targetAir: false
-health: 2500
+health: 1500
 
 weapons: [{
 name: bquadbombs

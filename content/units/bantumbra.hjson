@@ -7,7 +7,7 @@ engineSize: 3
 drag: 0.02
 accel: 0.05
 hitSize: 7
-health: 3500
+health: 2100
 weapons: [
   {
   name: bseigun

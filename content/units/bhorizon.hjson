@@ -11,7 +11,7 @@ hitSize: 5
 targetAir: false
 circleTarget: true
 
-health: 150
+health: 75
 weapons: [{
 name: bhorizonbomb
 x: 2

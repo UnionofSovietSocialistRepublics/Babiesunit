@@ -9,7 +9,7 @@ immunities: [
 		burning
 		]
 range: 125
-health: 3500
+health: 1250
 weapons: [
 {
   name: bvela-w
